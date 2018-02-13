@@ -9,27 +9,37 @@ namespace first_assignment
     class Maths
    
     {
-        public void add(int a, int b)
+        private int param1;
+        private int param2;
+        public Maths(int param1, int param2)
         {
-             int result = a + b;
+            this.param1 = param1;
+            this.param2 = param2;
+        }
+        public void add()
+        {
+             int result = param1 + param2;
 
-            Console.WriteLine("the addition of {0} and {1} is {2}", a, b, result);  
+            Console.WriteLine("the addition of {0} and {1} is {2}", param1, param2, result);  
         }
 
-        public void subtract(int a, int b)
+        public void subtract( )
         {
-            int result = a - b;
-            Console.WriteLine("the subtraction of {0} and {1} is {2}", a, b, result);
+            int result = param1 - param2;
+
+            Console.WriteLine("the addition of {0} and {1} is {2}", param1, param2, result);
         }
-        public void division(int a, int b)
+        public void division( )
         {
-            int result = a / b;
-            Console.WriteLine("the division of {0} and {1} is {2}", a, b, result);
+            int result = param1 / param2;
+
+            Console.WriteLine("the addition of {0} and {1} is {2}", param1, param2, result);
         }
-        public void multiplication(int a, int b)
+        public void multiplication( )
         {
-            int result = a * b;
-            Console.WriteLine("the multiplication of {0} and {1} is {2}", a, b, result);
+            int result = param1 * param2;
+
+            Console.WriteLine("the addition of {0} and {1} is {2}", param1, param2, result);
 
         }
             
